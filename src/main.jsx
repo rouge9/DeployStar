@@ -10,7 +10,7 @@ import GalleryPage from "./routes/GalleryPage.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/DeployStar/",
     element: <App />,
   },
   {
