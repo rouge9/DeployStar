@@ -1,16 +1,7 @@
 import ClientsCard from "./ClientsCard";
 function Clients() {
   return (
-    // <div className="bg-gradient-to-r from-amber-300 via-amber-400 to-amber-200 rounded-lg">
     <div className="max-w-screen-2xl px-4 sm:px-6 lg:px-8 mx-auto">
-      {/* <div className="h-96 rounded-xl overflow-hidden">
-        <img
-          className="w-full object-cover rounded-xl"
-          src="https://images.unsplash.com/photo-1624571409412-1f253e1ecc89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-          alt="Image Description"
-        />
-      </div> */}
-
       <div className="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
         <div className="lg:col-span-1">
           <h2 className="font-bold text-2xl text-center md:text-left md:text-3xl text-gray-800 ">
@@ -135,7 +126,6 @@ function Clients() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 
