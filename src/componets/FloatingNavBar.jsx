@@ -23,7 +23,7 @@ function FloatingNavBar() {
             href="/"
             aria-label="Brand"
           >
-            Star Painting
+            <img src="/logo.png" alt="logo" className="w-30 h-10" />
           </a>
           <div className="md:hidden">
             <button
